@@ -1,0 +1,21 @@
+<ejs-dialog height="30%" width="435px" [showCloseIcon]="closeIcon">
+    <ng-template #header>
+        <img class="e-template-image" src="assets/syncfusion-card.png" alt="header image">
+        <div id="template" class="e-icon-settings">Syncfusion</div>
+    </ng-template>
+    <ng-template #content>
+        <div class="dialogContent">
+            <span class="dialogText">
+                Want to be alerted when our videos are published? Enter your email address to be the first notified! 
+            </span>
+        </div>
+    </ng-template>
+    <ng-template #footerTemplate>
+        <div id="textbox">
+            <input class="e-input" type="text" placeholder="Enter your Email Id" />
+        </div>
+        <div id="subscribeButton">
+            <button ejs-button cssClass="e-info">Subscribe</button>
+        </div>
+    </ng-template>
+</ejs-dialog>
